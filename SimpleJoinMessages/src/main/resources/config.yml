@@ -1,0 +1,76 @@
+#################################################################
+#                  SimpleJoinMessages v1.5                      #
+#                  by Beans#7454                                #
+#################################################################
+
+# config reload command - "/sjmreload"
+# config reload permission - "sjm.reload"
+
+# You can customise the messages with whatever placeholders you want!
+# Placeholders - https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders
+
+#------------------------------------------------------------------------------------------------------------------
+#                                   JOIN MESSAGES
+#------------------------------------------------------------------------------------------------------------------
+
+# Add/remove lines as you want
+FirstJoinMessage:
+  - ''
+  - '&e%player_name% &aJoined the Server for the first Time! &f(&7#%server_unique_joins%&f)'
+  - ''
+
+# Add/remove lines as you want
+JoinMessage:
+  - ''
+  - '&e%player_name% &ahopped into the Server!'
+  - ''
+
+# Add/remove lines as you want
+LeaveMessage:
+  - ''
+  - '&e%player_name% &chopped out of the Server!'
+  - ''
+
+#------------------------------------------------------------------------------------------------------------------
+#                                   TITLE MESSAGES
+#------------------------------------------------------------------------------------------------------------------
+
+# Should player recieve a title message when joining. (default = true)
+TitleMessage-enabled: true
+
+# Should players recieve a title message when they join for the first time (default = false)
+TitleMessageOnFirstJoin: false
+
+# The titleMessage you want to send to the player.
+TitleMessage: '&aWelcome Back!'
+
+# The subtitleMessage you want to send to the player. Leave blank to disable.
+SubtitleMessage: '&6%player_name%'
+
+# Title message FadeIn time in Ticks (20 ticks = 1 second)
+FadeInTime: 20
+
+# Title message Stay time in Ticks (20 ticks = 1 second)
+StayTime: 60
+
+# Title message FadeOut time in Ticks (20 ticks = 1 second)
+FadeOutTime: 20
+
+#------------------------------------------------------------------------------------------------------------------
+#                                   MOTD MESSAGE
+#------------------------------------------------------------------------------------------------------------------
+
+# Should player receive a motd when they join (Default = true)
+MOTD-enabled: true
+
+# Should players receive a motd when they join for the first time (Default = false)
+MOTD-onFirstJoin: false
+
+# The message you want to send as an MOTD
+MOTD-message:
+  - '&b-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+  - ''
+  - '      &6Welcome back &a%player_name% &6to our server '
+  - '               &6Hope you have fun!                  '
+  - ''
+  - '&b-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
